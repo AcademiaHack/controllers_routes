@@ -9,15 +9,15 @@ default: &default
 
 development:
   <<: *default
-  database: associations_class_development
+  database: controllers_routes_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: associations_class_test
+  database: controllers_routes_test
 
 production:
   <<: *default
-  database: associations_class_producton
+  database: controllers_routes_producton
